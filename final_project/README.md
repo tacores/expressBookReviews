@@ -7,7 +7,11 @@ http://localhost:5000/author/Chinua Achebe
 http://localhost:5000/title/Fairy tales
 
 register post
-http://localhost:5000/register?username=user1&password=pw1
+http://localhost:5000/register
+{
+	"username": "user1",
+	"password": "pw1",
+}
 
 login post
 http://localhost:5000/customer/login
